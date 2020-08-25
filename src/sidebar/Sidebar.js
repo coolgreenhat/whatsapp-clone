@@ -11,7 +11,7 @@ import SidebarChat from "./sidebarchat/Sidebarchat";
 function Sidebar() {
     return (
       <div className="sidebar">
-        <div className="sidebar">
+        {/* <div className="sidebar"> */}
             <div className="sidebar__header">
               <Avatar />
               <div className="sidebar__headerRight">
@@ -41,7 +41,7 @@ function Sidebar() {
               <SidebarChat />
               <SidebarChat />
             </div>
-        </div>
+        {/* </div> */}
       </div>
     );
 }
